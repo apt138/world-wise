@@ -1,0 +1,41 @@
+.user {
+  background-color: var(--color-dark--1);
+  z-index: 1000;
+  padding: 0.75rem 1.5rem;
+  border-radius: 7px;
+  font-family: inherit;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.user img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.user span {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.user button {
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  border: none;
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.25rem 0.75rem;
+}

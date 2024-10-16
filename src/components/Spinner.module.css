@@ -1,0 +1,25 @@
+.spinnerContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background: conic-gradient(rgb(0, 0, 0, 0) 10%, var(--color-light--2));
+  -webkit-mask: radial-gradient(
+    farthest-side,
+    rgba(0, 0, 0, 0) calc(100% - 8px),
+    rgba(0, 0, 0) 0
+  );
+  animation: rotate 1.5s infinite linear;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}

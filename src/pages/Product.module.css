@@ -1,0 +1,35 @@
+.product {
+  min-height: calc(100vh - 5rem);
+  margin: 2.5rem;
+  padding: 2.5rem 5rem;
+  background-color: var(--color-dark--1);
+}
+
+.product section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7rem;
+  align-items: center;
+  width: clamp(80rem, 80%, 90rem);
+  margin: 6rem auto;
+}
+
+.product section img {
+  width: 100%;
+}
+
+.product h2 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  line-height: 1.2;
+}
+
+.product div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.product div p {
+  font-size: 1.5rem;
+}
