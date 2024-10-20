@@ -20,7 +20,7 @@ export default function City() {
     function () {
       getCity(cityId);
     },
-    [cityId]
+    [cityId, getCity]
   );
   if (isLoading) return <Spinner />;
   return (
